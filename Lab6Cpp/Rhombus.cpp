@@ -18,7 +18,7 @@ Rhombus::Rhombus(Point points[4])
         {
             lengthNow = GetSideLength(_points[i], _points[i - 1]);
             if (lengthNow != length)
-                throw NotARhombusException("Not all sizes have equal lengthes");
+                throw NotARhombusException("Not all sides have equal lengthes");
         }
     }
     else throw std::invalid_argument("Points array was null");
