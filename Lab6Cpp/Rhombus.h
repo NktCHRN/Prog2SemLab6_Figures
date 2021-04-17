@@ -15,6 +15,6 @@ private:
 public:
     Rhombus(Point points[4]);
     Point* GetPoints();      // method for getting the copy of array of Points for the Rhombus
-    double GetArea();
-    double GetPerimeter();
+    double GetArea() override;
+    double GetPerimeter() override;
 };

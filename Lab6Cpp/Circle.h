@@ -10,6 +10,6 @@ private:
 public:
     Circle(double radius);
     double GetRadius();
-    double GetArea();
-    double GetPerimeter();
+    double GetArea() override;
+    double GetPerimeter() override;
 };
