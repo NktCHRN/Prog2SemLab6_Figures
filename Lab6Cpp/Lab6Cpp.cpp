@@ -41,5 +41,7 @@ int main()
     cout << "The area of your circle is: " << fixed << (*circle1).GetArea() << endl;
     cout << "The perimeter of your circle is: " << fixed << (*circle1).GetPerimeter() << endl;
     cout << endl;
+    delete[] rhombus1;
+    delete[] circle1;
     system("pause");
 }
